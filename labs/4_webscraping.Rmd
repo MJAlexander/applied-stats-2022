@@ -1,0 +1,157 @@
+---
+title: "Web scraping"
+author: "Monica Alexander"
+date: "February 1 2022"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+# Introduction
+
+Today we will be extracting some useful data from websites. There's a bunch of different ways to web-scrape, but we'll be exploring using the `rvest` package in R, that helps you to deal with parsing html. 
+
+Why is web scraping useful? If our research involves getting data from a website that isn't already in a easily downloadable form, it improves the reproducibility of our research. Once you get a scraper working, it's less prone to human error than copy-pasting, for example, and much easier for someone else to see what you did. 
+
+## A note on responsibility
+
+Seven principles for web-scraping responsibly:
+
+1. Try to use an API.
+2. Check robots.txt. (e.g. https://www.utoronto.ca/robots.txt)
+3. Slow down (why not only visit the website once a minute if you can just run your data collection in the background while you're doing other things?).
+4. Consider the timing (if it's a retailer then why not set your script to run overnight?).
+5. Only scrape once (save the data as you go and monitor where you are up to).
+6. Don't republish the data you scraped (cf datasets that create based off it).
+7. Take ownership (add contact details to your scripts, don't hide behind VPNs, etc)
+
+# Extracting data on opioid prescriptions from CDC
+
+We're going to grab some data on opioid prescription rates from the [CDC website](https://www.cdc.gov/drugoverdose/maps/rxrate-maps.html). While the data are nicely presented and mapped, there's no nice way of downloading the data for each year as a csv or similar form. So let's use `rvest` to extract the data. We'll also load in `janitor` to clean up column names etc later on. 
+
+```{r}
+library(tidyverse)
+library(rvest)
+library(janitor)
+```
+
+## Getting the data for 2008
+
+Have a look at the website at the url below. It shows a map of state prescription rates in 2008. Let's read in the html of this page. 
+
+```{r}
+cdcpage <- "https://www.cdc.gov/drugoverdose/rxrate-maps/state2008.html"
+cdc <- read_html(cdcpage)
+cdc
+```
+Note that it has two main parts, a head and body. For the majority of use cases, you will probably be interested in the body. You can select a node using `html_node()` and then see its child nodes using `html_children()`.
+
+```{r}
+body_nodes <- cdc %>% 
+ html_node("body") %>% 
+ html_children()
+body_nodes
+```
+
+We can keep going down to see the nodes within the nodes, just by piping again:
+
+```{r}
+body_nodes[[7]] %>% 
+  html_children() %>%
+  html_children() %>% `[[`(3) # pull the third element
+```
+
+## Inspecting elements of a website
+
+The above is still fairly impenetrable. But we can get hints from the website itself. Using Chrome (or Firefox) you can highlight a part of the website of interest (say, 'Alabama'), right click and choose 'Inspect'. That gives you info on the underlying html of the webpage on the right hand side. Alternatively, and probably easier to find what we want, right click on the webpage and choose View Page Source. This opens a new window with all the html. Do a search for the world 'Alabama'. Now we can see the code for the table. We can see that the data we want are all within `tr`. So let's extract those nodes:
+
+```{r}
+cdc %>% 
+  html_nodes("tr") 
+```
+
+Great, now we're getting somewhere. We only want the text, not the html rubbish, so let's extract that:
+
+```{r}
+table_text <- cdc %>% 
+  html_nodes("tr") %>% 
+  html_text() 
+
+table_text
+```
+
+This is almost useful! Turning it into a tibble and using `separate` to get the variables into separate columns gets us almost there:
+
+```{r}
+rough_table <- table_text %>% 
+  as_tibble() %>% 
+  separate(value, into = c("state", "abbrev", "rate"), sep = "\n", extra = "drop") 
+rough_table
+```
+
+Now we can just divert to our standard tidyverse cleaning skills (`janitor` functions help here) to tidy it up:
+
+```{r}
+d_prescriptions <- rough_table %>% 
+  janitor::row_to_names(1) %>% 
+  janitor::clean_names() %>% 
+  rename(prescribing_rate = opioid_dispensing_rate_per_100) %>% 
+  mutate(prescribing_rate = as.numeric(prescribing_rate)) 
+
+d_prescriptions
+```
+
+Now we have clean data for 2008! Great success. 
+
+## Take-aways
+
+This example showed you how to extract a particular table from a particular website. The take-away is to inspect the page html, find where what you want is hiding, and then use the tools in `rvest` (`html_nodes()` and `html_text()` particularly useful) to extract it. 
+
+## Question 1
+
+Add a year column to `d_prescriptions`.
+
+## Getting all the other years
+
+Now I want you to get data for 2008-2019 and save it into one big tibble. If you go to https://www.cdc.gov/drugoverdose/maps/rxrate-maps.html, on the right hand side there's hyperlinks to all the years under "U.S. State Prescribing Rate Maps". 
+
+Click on 2009. Look at the url. Confirm that it's exactly the same format as the url for 2008, except the year has changed. This is useful, because we can just loop through in an automated way, changing the year as we go. 
+
+## Question 2
+
+Make a vector of the urls for each year, storing them as strings. 
+
+## Question 3
+
+Extract the prescriptions data for the years 2008-2019, and store in the one tibble. Make sure you have a column for state, state abbreviation, prescription rate and year. Note if you are looping over years/urls (which is probably the easiest thing to do), it's good practice to include a `Sys.sleep(1)` at the end of your loop, so R waits for a second before trying again. 
+
+Plot prescriptions by state over time.
+
+# Question 4: Install rstan and brms
+
+We will be using the packages `rstan` and `brms` from next week. Please install these. Here's some instructions:
+
+- https://github.com/paul-buerkner/brms
+- https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
+
+In most cases it will be straightforward and may not need much more than `install.packages()`, but you might run into issues. Every Stan update seems to cause problems for different OS.
+
+To make sure it works, run the following code:
+
+```{r}
+library(brms)
+
+x <- rnorm(100)
+y <- 1 + 2*x + rnorm(100)
+d <- tibble(x = x, y= y)
+
+mod <- brm(y~x, data = d)
+summary(mod)
+
+```
+
