@@ -410,12 +410,89 @@ df <- df %>%
 ```
 4. Visually explore the distribution of values of the contributions. What contributions are notable outliers? Do they share a similar characteristic(s)? It may be useful to plot the distribution of contributions without these outliers to get a better sense of the majority of the data. 
 
+```{r}
+df %>% 
+  ggplot(aes(contribution_amount)) + geom_histogram() + scale_x_log10()
+
+df %>% 
+  ggplot(aes(contribution_amount)) + geom_histogram() + scale_x_log10() + facet_wrap(~candidate, scales = "free_y")
+
+# The big outliers are from Fords to Fords
+
+```
+
 5. List the top five candidates in each of these categories:
     + total contributions
     + mean contribution
     + number of contributions
+    
+    ```{r}
+
+# total contributions
+df %>% 
+  group_by(candidate) %>% 
+  summarise(total_contr = sum(contribution_amount)) %>% 
+  arrange(-total_contr)
+
+# mean contributions
+df %>% 
+  group_by(candidate) %>% 
+  summarise(mean_contr = mean(contribution_amount)) %>% 
+  arrange(-mean_contr)
+
+
+# number
+df %>% 
+  group_by(candidate) %>% 
+  tally() %>% 
+  arrange(-n)
+```
+
 6. Repeat 5 but without contributions from the candidates themselves.
+
+```{r}
+df_not_to_self <- df %>% 
+  filter(contributors_name!=candidate)
+
+
+df_not_to_self %>% 
+  group_by(candidate) %>% 
+  summarise(total_contr = sum(contribution_amount)) %>% 
+  arrange(-total_contr)
+
+# mean contributions
+df_not_to_self %>% 
+  group_by(candidate) %>% 
+  summarise(mean_contr = mean(contribution_amount)) %>% 
+  arrange(-mean_contr)
+
+
+# number
+df_not_to_self %>% 
+  group_by(candidate) %>% 
+  tally() %>% 
+  arrange(-n)
+```
 7. How many contributors gave money to more than one candidate? 
+
+```{r}
+df %>% 
+  group_by(contributors_name) %>% 
+  distinct(candidate) %>% 
+  tally() %>% 
+  filter(n>1) %>% 
+  nrow()
+
+# OR
+
+df %>% 
+  group_by(contributors_name, candidate) %>% 
+  tally() %>% 
+  group_by(contributors_name) %>% 
+  tally() %>% 
+  filter(n>1) %>% nrow()
+  
+```
 
 
 
