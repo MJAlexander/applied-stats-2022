@@ -1,0 +1,247 @@
+age_gp,edu,marital,race,parity,wants_more_kids
+25-29,Bachelor,Married,Non-Hispanic White,2,1
+20-24,HS,Never Married,Non-Hispanic Black,0,1
+20-24,Some College,Never Married,Non-Hispanic White,0,0
+25-29,<HS,Married,Hispanic,3,1
+30-34,Some College,Formerly Married,Non-Hispanic White,3,0
+35-39,HS,Never Married,Non-Hispanic Black,5,0
+35-39,Some College,Married,Non-Hispanic White,3,0
+30-34,Bachelor,Married,Hispanic,2,0
+30-34,HS,Never Married,Hispanic,3,0
+20-24,HS,Never Married,Non-Hispanic White,1,1
+20-24,Some College,Never Married,Non-Hispanic White,1,1
+40-44,Bachelor,Married,Non-Hispanic White,4,0
+30-34,HS,Never Married,Non-Hispanic Black,5,0
+25-29,Bachelor,Never Married,Hispanic,2,0
+25-29,Bachelor,Never Married,Non-Hispanic White,0,1
+20-24,Some College,Never Married,Hispanic,0,1
+25-29,Bachelor,Never Married,Hispanic,0,1
+40-44,<HS,Never Married,Non-Hispanic Black,4,0
+20-24,Some College,Never Married,Hispanic,0,1
+40-44,HS,Married,Non-Hispanic White,3,0
+20-24,Some College,Never Married,Other or Multiple,3,0
+20-24,HS,Married,Non-Hispanic White,1,1
+20-24,Some College,Never Married,Non-Hispanic White,0,1
+35-39,Some College,Never Married,Non-Hispanic White,0,0
+40-44,Post-Grad,Married,Non-Hispanic White,3,0
+30-34,HS,Formerly Married,Hispanic,2,0
+30-34,Some College,Never Married,Non-Hispanic White,0,1
+35-39,Some College,Married,Non-Hispanic White,4,0
+25-29,<HS,Never Married,Non-Hispanic Black,4,1
+30-34,Some College,Never Married,Non-Hispanic White,0,1
+20-24,HS,Never Married,Hispanic,3,0
+20-24,Some College,Married,Non-Hispanic White,0,1
+20-24,Some College,Never Married,Non-Hispanic White,1,1
+40-44,Bachelor,Married,Non-Hispanic White,1,0
+30-34,Bachelor,Married,Non-Hispanic White,2,0
+20-24,Some College,Married,Non-Hispanic White,0,1
+20-24,HS,Formerly Married,Non-Hispanic White,1,1
+40-44,<HS,Married,Non-Hispanic Black,1,0
+40-44,HS,Never Married,Non-Hispanic White,1,0
+20-24,<HS,Never Married,Hispanic,0,1
+20-24,<HS,Never Married,Hispanic,2,1
+30-34,Bachelor,Never Married,Non-Hispanic White,0,1
+25-29,HS,Never Married,Non-Hispanic White,1,1
+30-34,Some College,Never Married,Hispanic,2,0
+20-24,HS,Never Married,Non-Hispanic Black,1,1
+20-24,Some College,Never Married,Non-Hispanic White,1,0
+30-34,Bachelor,Never Married,Non-Hispanic White,1,1
+35-39,Bachelor,Married,Non-Hispanic White,3,0
+25-29,Some College,Married,Non-Hispanic White,2,1
+25-29,Some College,Married,Non-Hispanic White,2,1
+40-44,HS,Formerly Married,Non-Hispanic White,0,0
+20-24,Some College,Never Married,Hispanic,0,1
+35-39,Bachelor,Never Married,Hispanic,3,0
+25-29,<HS,Never Married,Non-Hispanic Black,0,1
+30-34,Some College,Married,Non-Hispanic White,3,0
+35-39,HS,Never Married,Hispanic,1,1
+20-24,HS,Never Married,Non-Hispanic Black,1,1
+35-39,Some College,Never Married,Non-Hispanic White,0,0
+30-34,Some College,Never Married,Hispanic,2,1
+40-44,Some College,Married,Non-Hispanic Black,3,0
+25-29,HS,Married,Other or Multiple,1,1
+30-34,Some College,Never Married,Non-Hispanic Black,3,0
+25-29,Bachelor,Married,Non-Hispanic White,0,1
+40-44,Bachelor,Formerly Married,Non-Hispanic White,4,0
+25-29,Some College,Never Married,Non-Hispanic Black,1,1
+40-44,<HS,Never Married,Hispanic,4,0
+25-29,Post-Grad,Never Married,Other or Multiple,0,1
+20-24,Some College,Never Married,Hispanic,0,1
+20-24,HS,Never Married,Non-Hispanic Black,0,1
+20-24,Some College,Never Married,Non-Hispanic Black,0,1
+25-29,Bachelor,Never Married,Hispanic,0,1
+35-39,Post-Grad,Married,Non-Hispanic White,1,1
+35-39,HS,Never Married,Other or Multiple,0,0
+35-39,<HS,Never Married,Hispanic,3,0
+35-39,HS,Never Married,Non-Hispanic Black,4,1
+40-44,Some College,Never Married,Non-Hispanic Black,3,0
+25-29,HS,Married,Hispanic,1,1
+20-24,Some College,Formerly Married,Non-Hispanic White,3,0
+40-44,HS,Formerly Married,Hispanic,4,0
+40-44,Post-Grad,Married,Non-Hispanic White,1,0
+20-24,HS,Formerly Married,Non-Hispanic White,1,0
+20-24,Some College,Never Married,Non-Hispanic Black,0,0
+35-39,Bachelor,Married,Non-Hispanic White,3,0
+25-29,<HS,Married,Hispanic,1,1
+40-44,Bachelor,Married,Non-Hispanic White,2,0
+40-44,Bachelor,Formerly Married,Non-Hispanic White,1,0
+20-24,Some College,Never Married,Non-Hispanic Black,0,1
+20-24,Some College,Never Married,Hispanic,0,1
+30-34,Some College,Married,Non-Hispanic White,3,0
+35-39,Some College,Never Married,Non-Hispanic Black,2,1
+30-34,Post-Grad,Married,Non-Hispanic White,2,0
+25-29,Some College,Never Married,Non-Hispanic Black,1,0
+20-24,Bachelor,Never Married,Non-Hispanic White,0,1
+35-39,HS,Formerly Married,Non-Hispanic White,4,0
+40-44,<HS,Never Married,Hispanic,3,0
+25-29,Bachelor,Never Married,Non-Hispanic White,0,1
+40-44,Some College,Formerly Married,Non-Hispanic Black,3,0
+25-29,HS,Never Married,Non-Hispanic White,2,0
+40-44,Some College,Formerly Married,Non-Hispanic White,2,0
+25-29,Bachelor,Married,Other or Multiple,3,1
+40-44,Bachelor,Never Married,Hispanic,2,1
+35-39,Some College,Married,Non-Hispanic White,1,0
+35-39,HS,Never Married,Non-Hispanic Black,4,1
+20-24,HS,Never Married,Hispanic,0,1
+35-39,Post-Grad,Formerly Married,Non-Hispanic White,2,0
+25-29,Bachelor,Married,Other or Multiple,0,1
+35-39,HS,Formerly Married,Hispanic,1,0
+20-24,Bachelor,Never Married,Non-Hispanic White,0,1
+35-39,HS,Married,Non-Hispanic White,2,0
+35-39,HS,Married,Other or Multiple,2,0
+20-24,Some College,Never Married,Non-Hispanic White,0,1
+40-44,Some College,Formerly Married,Non-Hispanic White,1,1
+30-34,Post-Grad,Married,Non-Hispanic White,1,1
+35-39,Post-Grad,Formerly Married,Non-Hispanic White,1,0
+35-39,Bachelor,Never Married,Hispanic,1,0
+30-34,HS,Married,Hispanic,4,0
+25-29,Bachelor,Never Married,Non-Hispanic White,0,1
+30-34,Some College,Never Married,Hispanic,2,0
+35-39,Some College,Never Married,Non-Hispanic Black,1,1
+35-39,Post-Grad,Married,Hispanic,2,0
+35-39,Bachelor,Married,Non-Hispanic White,1,0
+25-29,Bachelor,Never Married,Non-Hispanic White,0,1
+20-24,Some College,Married,Hispanic,1,1
+25-29,<HS,Never Married,Other or Multiple,1,1
+25-29,HS,Married,Non-Hispanic White,1,1
+30-34,Post-Grad,Married,Non-Hispanic White,0,1
+30-34,<HS,Married,Hispanic,0,1
+35-39,Some College,Married,Hispanic,3,0
+25-29,HS,Married,Non-Hispanic White,4,0
+20-24,<HS,Never Married,Non-Hispanic Black,2,1
+30-34,Some College,Married,Non-Hispanic White,3,0
+30-34,Bachelor,Never Married,Non-Hispanic White,0,1
+25-29,Some College,Never Married,Hispanic,1,1
+25-29,Some College,Never Married,Non-Hispanic Black,0,1
+30-34,Some College,Married,Hispanic,3,0
+25-29,HS,Never Married,Hispanic,3,0
+35-39,HS,Married,Non-Hispanic White,3,0
+40-44,HS,Formerly Married,Hispanic,4,0
+25-29,Some College,Married,Hispanic,3,0
+35-39,Bachelor,Married,Other or Multiple,2,0
+30-34,Post-Grad,Married,Non-Hispanic Black,2,1
+40-44,HS,Never Married,Non-Hispanic Black,4,0
+30-34,Post-Grad,Never Married,Non-Hispanic Black,1,1
+20-24,HS,Never Married,Other or Multiple,1,0
+40-44,Some College,Formerly Married,Hispanic,6,0
+35-39,Some College,Formerly Married,Hispanic,4,1
+40-44,Some College,Married,Non-Hispanic White,4,0
+20-24,Some College,Never Married,Non-Hispanic White,0,0
+25-29,<HS,Married,Hispanic,3,0
+20-24,Some College,Never Married,Non-Hispanic Black,0,1
+40-44,HS,Formerly Married,Non-Hispanic White,0,0
+20-24,HS,Never Married,Hispanic,0,1
+35-39,Some College,Married,Hispanic,4,0
+25-29,HS,Never Married,Non-Hispanic Black,2,0
+25-29,Bachelor,Married,Non-Hispanic White,0,1
+20-24,Some College,Never Married,Non-Hispanic Black,0,1
+25-29,HS,Never Married,Hispanic,0,1
+25-29,Some College,Never Married,Non-Hispanic Black,0,1
+35-39,HS,Married,Hispanic,3,0
+30-34,Bachelor,Married,Other or Multiple,1,1
+40-44,Post-Grad,Never Married,Non-Hispanic White,0,0
+25-29,Bachelor,Never Married,Hispanic,0,1
+20-24,<HS,Never Married,Hispanic,3,1
+20-24,HS,Never Married,Non-Hispanic Black,0,1
+25-29,Some College,Never Married,Non-Hispanic Black,1,1
+40-44,<HS,Formerly Married,Hispanic,3,0
+40-44,Some College,Never Married,Hispanic,1,0
+25-29,<HS,Never Married,Non-Hispanic Black,2,1
+30-34,<HS,Never Married,Non-Hispanic White,3,0
+35-39,Bachelor,Formerly Married,Non-Hispanic White,2,0
+40-44,<HS,Formerly Married,Hispanic,4,0
+40-44,Post-Grad,Married,Non-Hispanic White,1,0
+20-24,HS,Never Married,Non-Hispanic White,2,0
+35-39,Bachelor,Married,Hispanic,2,0
+40-44,Bachelor,Married,Non-Hispanic White,2,0
+25-29,Bachelor,Never Married,Non-Hispanic White,0,1
+40-44,Some College,Married,Non-Hispanic White,2,0
+20-24,Some College,Never Married,Non-Hispanic White,0,1
+40-44,Some College,Formerly Married,Non-Hispanic White,1,0
+35-39,Post-Grad,Married,Non-Hispanic White,1,1
+40-44,Some College,Never Married,Other or Multiple,1,1
+25-29,Some College,Married,Non-Hispanic White,2,1
+40-44,<HS,Never Married,Non-Hispanic Black,3,0
+25-29,HS,Married,Hispanic,1,1
+35-39,Some College,Never Married,Non-Hispanic Black,2,0
+40-44,Some College,Married,Non-Hispanic White,2,0
+30-34,Post-Grad,Married,Non-Hispanic Black,2,1
+30-34,HS,Married,Non-Hispanic White,1,0
+25-29,Bachelor,Married,Hispanic,0,1
+30-34,Post-Grad,Formerly Married,Non-Hispanic White,0,0
+20-24,HS,Never Married,Non-Hispanic Black,0,1
+25-29,HS,Never Married,Non-Hispanic Black,4,0
+40-44,<HS,Married,Hispanic,4,0
+25-29,Some College,Never Married,Non-Hispanic White,2,0
+30-34,Post-Grad,Never Married,Non-Hispanic White,0,1
+40-44,<HS,Married,Non-Hispanic White,2,0
+30-34,<HS,Never Married,Other or Multiple,2,1
+30-34,Post-Grad,Never Married,Non-Hispanic Black,2,1
+35-39,Some College,Married,Non-Hispanic White,3,0
+20-24,Bachelor,Married,Hispanic,0,1
+35-39,Bachelor,Married,Non-Hispanic White,1,1
+30-34,Bachelor,Married,Other or Multiple,1,1
+20-24,Some College,Never Married,Non-Hispanic White,0,1
+25-29,Some College,Married,Non-Hispanic White,3,0
+40-44,Bachelor,Married,Other or Multiple,2,0
+20-24,Some College,Married,Non-Hispanic White,0,1
+35-39,Bachelor,Married,Non-Hispanic White,1,1
+20-24,HS,Never Married,Non-Hispanic White,2,1
+40-44,Bachelor,Formerly Married,Non-Hispanic White,2,0
+35-39,HS,Never Married,Hispanic,1,0
+20-24,Some College,Never Married,Non-Hispanic Black,0,0
+30-34,Bachelor,Formerly Married,Non-Hispanic White,2,1
+30-34,Bachelor,Married,Non-Hispanic White,0,1
+30-34,HS,Never Married,Non-Hispanic Black,2,0
+35-39,Bachelor,Married,Non-Hispanic White,2,0
+20-24,Some College,Never Married,Other or Multiple,0,1
+40-44,Some College,Married,Non-Hispanic White,2,0
+20-24,<HS,Never Married,Hispanic,0,1
+35-39,Some College,Married,Hispanic,1,1
+40-44,Bachelor,Married,Non-Hispanic White,2,0
+20-24,Some College,Never Married,Non-Hispanic White,0,0
+40-44,Post-Grad,Married,Non-Hispanic White,2,0
+25-29,Some College,Never Married,Non-Hispanic Black,2,1
+30-34,Some College,Never Married,Non-Hispanic Black,1,0
+25-29,Post-Grad,Married,Non-Hispanic White,0,1
+30-34,HS,Formerly Married,Hispanic,4,0
+40-44,HS,Married,Non-Hispanic White,4,0
+20-24,HS,Never Married,Non-Hispanic Black,2,0
+30-34,HS,Never Married,Other or Multiple,0,0
+20-24,<HS,Never Married,Non-Hispanic Black,1,1
+25-29,HS,Never Married,Non-Hispanic White,2,0
+40-44,Some College,Married,Non-Hispanic White,5,0
+35-39,Bachelor,Married,Non-Hispanic White,2,0
+35-39,HS,Never Married,Hispanic,1,0
+20-24,Some College,Never Married,Non-Hispanic Black,1,1
+20-24,<HS,Never Married,Non-Hispanic White,1,1
+35-39,Bachelor,Never Married,Non-Hispanic White,0,0
+40-44,Post-Grad,Married,Non-Hispanic White,1,1
+25-29,Some College,Married,Non-Hispanic White,0,1
+30-34,HS,Formerly Married,Non-Hispanic White,0,0
+25-29,HS,Never Married,Non-Hispanic Black,4,0
+25-29,Bachelor,Never Married,Non-Hispanic White,0,1
+30-34,Some College,Married,Hispanic,2,0
+30-34,Bachelor,Married,Hispanic,1,1
+40-44,<HS,Formerly Married,Hispanic,1,0
+20-24,Some College,Never Married,Non-Hispanic Black,0,1
