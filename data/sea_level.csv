@@ -1,0 +1,304 @@
+region,indicator,age_ce,rsl_m,rsl_se
+Connecticut,plants,1336,-0.91,0.04
+Connecticut,plants,1413,-0.78,0.04
+Connecticut,plants,1441,-0.82,0.04
+Connecticut,plants,1561,-0.69,0.04
+Connecticut,plants,1570,-0.63,0.05
+Connecticut,plants,1655,-0.53,0.05
+Connecticut,plants,1713,-0.47,0.05
+Connecticut,plants,1789,-0.42,0.05
+Connecticut,plants,1825,-0.4,0.05
+Connecticut,plants,1875,-0.32,0.05
+Connecticut,foraminifera,1981,-0.16,0.16
+Connecticut,foraminifera,1979,-0.1,0.16
+Connecticut,foraminifera,1976,-0.13,0.16
+Connecticut,foraminifera,1974,-0.24,0.16
+Connecticut,foraminifera,1972,-0.17,0.16
+Connecticut,foraminifera,1969,-0.27,0.16
+Connecticut,foraminifera,1965,-0.23,0.16
+Connecticut,foraminifera,1960,-0.19,0.16
+Connecticut,foraminifera,1951,-0.25,0.16
+Connecticut,foraminifera,1942,-0.23,0.16
+Connecticut,foraminifera,1936,-0.26,0.16
+Connecticut,foraminifera,1930,-0.25,0.16
+Connecticut,foraminifera,1922,-0.3,0.16
+Connecticut,foraminifera,1915,-0.32,0.16
+Connecticut,foraminifera,1908,-0.36,0.16
+Connecticut,foraminifera,1903,-0.42,0.16
+Connecticut,foraminifera,1901,-0.41,0.16
+Connecticut,foraminifera,1898,-0.45,0.16
+Connecticut,foraminifera,1865,-0.44,0.16
+Connecticut,foraminifera,1802,-0.6,0.16
+Connecticut,foraminifera,1776,-0.55,0.16
+Connecticut,foraminifera,1753,-0.54,0.16
+Connecticut,foraminifera,1705,-0.61,0.16
+Connecticut,foraminifera,1677,-0.61,0.16
+Connecticut,foraminifera,1651,-0.6,0.16
+Connecticut,foraminifera,1606,-0.69,0.16
+Connecticut,foraminifera,1582,-0.77,0.16
+Connecticut,foraminifera,1519,-0.83,0.16
+Connecticut,foraminifera,1494,-0.73,0.16
+Connecticut,foraminifera,1470,-0.85,0.16
+Connecticut,foraminifera,1448,-0.88,0.16
+Connecticut,foraminifera,1425,-0.94,0.16
+Connecticut,foraminifera,1399,-0.97,0.16
+Connecticut,foraminifera,1365,-0.91,0.16
+Connecticut,foraminifera,1335,-0.96,0.16
+Connecticut,foraminifera,1308,-1.01,0.16
+Connecticut,foraminifera,1283,-0.98,0.16
+Connecticut,foraminifera,1271,-1.02,0.16
+Connecticut,foraminifera,1259,-0.98,0.16
+Connecticut,foraminifera,1228,-0.96,0.16
+Connecticut,foraminifera,1201,-1.02,0.16
+Connecticut,foraminifera,1179,-1.04,0.16
+Connecticut,foraminifera,1157,-1.04,0.16
+Connecticut,foraminifera,1135,-1.01,0.16
+Connecticut,foraminifera,1114,-1.05,0.16
+Connecticut,foraminifera,1092,-1.06,0.16
+Connecticut,foraminifera,1070,-1.11,0.16
+Connecticut,foraminifera,1049,-1.19,0.16
+Connecticut,foraminifera,1007,-1.28,0.16
+Connecticut,plants,1323,-0.63,0.26
+Connecticut,plants,1356,-0.62,0.26
+Connecticut,plants,1357,-0.73,0.26
+Connecticut,plants,1485,-0.43,0.26
+Connecticut,plants,1541,-1.11,0.32
+Connecticut,plants,1736,-0.35,0.26
+Connecticut,plants,1802,-0.8,0.32
+Connecticut,plants,1809,-0.77,0.32
+Connecticut,plants,1809,-0.35,0.26
+Connecticut,plants,1816,-0.22,0.26
+Connecticut,plants,1375,-0.41,0.13
+Connecticut,plants,1378,-0.67,0.13
+Connecticut,plants,1391,-1.23,0.23
+Connecticut,plants,1512,-0.56,0.13
+Connecticut,plants,1535,-0.53,0.13
+Connecticut,plants,1538,-1.03,0.23
+Connecticut,plants,1548,-1.04,0.23
+Connecticut,plants,1552,-0.27,0.13
+Connecticut,plants,1798,-0.07,0.13
+Connecticut,plants,1802,-0.51,0.23
+Connecticut,plants,1810,0.17,0.13
+Florida,plants,2002,0.05,0.07
+Florida,plants,1990,0.03,0.07
+Florida,plants,1980,0.01,0.07
+Florida,plants,1974,-0.01,0.07
+Florida,plants,1964,-0.03,0.07
+Florida,plants,1936,-0.05,0.07
+Florida,plants,1920,-0.07,0.07
+Florida,plants,1906,-0.09,0.07
+Florida,plants,1896,-0.11,0.07
+Florida,plants,1881,-0.13,0.07
+Florida,plants,1870,-0.15,0.07
+Florida,plants,1858,-0.17,0.07
+Florida,plants,1680,-0.23,0.07
+Florida,plants,1633,-0.25,0.07
+Florida,plants,1604,-0.26,0.07
+Florida,plants,1576,-0.27,0.07
+Florida,plants,1532,-0.29,0.07
+Florida,plants,1489,-0.31,0.07
+Florida,plants,1446,-0.33,0.07
+Florida,plants,1396,-0.35,0.07
+Florida,plants,1353,-0.37,0.07
+Florida,plants,1310,-0.39,0.07
+Florida,plants,1267,-0.41,0.07
+Florida,plants,1224,-0.43,0.07
+Florida,plants,1198,-0.44,0.07
+Florida,plants,1171,-0.45,0.07
+Florida,plants,1130,-0.47,0.07
+Florida,plants,1110,-0.48,0.07
+Florida,plants,1089,-0.49,0.07
+Florida,plants,1048,-0.51,0.07
+Florida,plants,1007,-0.53,0.07
+Louisiana,peat,1067,-0.67,0.04
+Louisiana,peat,1169,-0.62,0.04
+Louisiana,peat,1188,-0.5,0.04
+Louisiana,peat,1194,-0.72,0.04
+Louisiana,peat,1230,-0.43,0.04
+Louisiana,peat,1096,-0.75,0.04
+Louisiana,peat,1145,-0.64,0.04
+Louisiana,peat,1176,-0.7,0.04
+Louisiana,peat,1178,-0.71,0.04
+Louisiana,peat,1218,-0.62,0.04
+Louisiana,peat,1405,-0.48,0.04
+Louisiana,peat,1494,-0.45,0.04
+Louisiana,peat,1528,-0.54,0.04
+Louisiana,peat,1155,-0.55,0.04
+Louisiana,peat,1807,-0.27,0.04
+Massachusetts,plants,1584,-0.58,0.07
+Massachusetts,plants,1415,-0.52,0.06
+Massachusetts,plants,1486,-0.49,0.06
+Massachusetts,plants,1487,-0.49,0.06
+Massachusetts,plants,1600,-0.42,0.06
+Massachusetts,plants,1669,-0.39,0.06
+Massachusetts,plants,1700,-0.35,0.06
+Massachusetts,plants,1875,-0.19,0.06
+Massachusetts,plants,1930,-0.05,0.06
+Massachusetts,plants,1963,-0.02,0.06
+New York,foraminifera,1994,-0.14,0.11
+New York,foraminifera,1986,-0.25,0.12
+New York,foraminifera,1973,-0.18,0.1
+New York,foraminifera,1965,0,0.06
+New York,foraminifera,1963,-0.01,0.08
+New York,foraminifera,1956,-0.04,0.06
+New York,foraminifera,1954,-0.05,0.06
+New York,foraminifera,1952,-0.08,0.05
+New York,foraminifera,1949,-0.09,0.06
+New York,foraminifera,1943,-0.11,0.06
+New York,foraminifera,1938,-0.12,0.06
+New York,foraminifera,1935,-0.17,0.06
+New York,foraminifera,1932,-0.16,0.06
+New York,foraminifera,1925,-0.2,0.05
+New York,foraminifera,1919,-0.16,0.11
+New York,foraminifera,1912,-0.23,0.06
+New York,foraminifera,1907,-0.23,0.07
+New York,foraminifera,1905,-0.26,0.08
+New York,foraminifera,1902,-0.29,0.06
+New York,foraminifera,1874,-0.29,0.07
+New York,foraminifera,1860,-0.36,0.04
+New York,foraminifera,1852,-0.37,0.04
+New York,foraminifera,1845,-0.39,0.04
+New York,foraminifera,1838,-0.41,0.04
+New York,foraminifera,1831,-0.43,0.04
+New York,foraminifera,1813,-0.46,0.04
+New York,foraminifera,1789,-0.45,0.06
+New York,foraminifera,1766,-0.49,0.04
+New York,foraminifera,1744,-0.53,0.03
+New York,foraminifera,1704,-0.55,0.04
+New York,foraminifera,1659,-0.57,0.04
+New York,foraminifera,1644,-0.59,0.04
+New York,foraminifera,1629,-0.62,0.02
+New York,foraminifera,1609,-1.28,0.14
+New York,foraminifera,1580,-0.73,0.08
+New York,foraminifera,1556,-0.96,0.23
+New York,foraminifera,1543,-0.92,0.17
+New York,foraminifera,1533,-0.89,0.17
+New York,foraminifera,1518,-0.88,0.14
+New York,foraminifera,1495,-1.04,0.21
+New York,foraminifera,1472,-1.05,0.18
+New York,foraminifera,1450,-1.08,0.16
+New York,foraminifera,1430,-1.06,0.1
+New York,foraminifera,1408,-1.05,0.17
+New York,foraminifera,1387,-0.97,0.18
+New York,foraminifera,1374,-1.11,0.14
+New York,foraminifera,1363,-1.05,0.16
+New York,foraminifera,1345,-1.22,0.11
+New York,foraminifera,1294,-1.22,0.15
+New York,foraminifera,1258,-1.18,0.15
+New York,foraminifera,1219,-1.64,0.12
+New York,foraminifera,1180,-1.55,0.14
+New York,foraminifera,1142,-1.35,0.15
+New York,foraminifera,1107,-1.26,0.1
+New York,foraminifera,1067,-1.33,0.12
+New York,foraminifera,1029,-1.44,0.09
+Florida,foraminifera,1995,-0.07,0.07
+Florida,foraminifera,1994,-0.09,0.07
+Florida,foraminifera,1990,-0.16,0.07
+Florida,foraminifera,1973,-0.17,0.07
+Florida,foraminifera,1949,-0.22,0.07
+Florida,foraminifera,1933,-0.22,0.07
+Florida,foraminifera,1919,-0.27,0.08
+Florida,foraminifera,1916,-0.28,0.07
+Florida,foraminifera,1914,-0.3,0.07
+Florida,foraminifera,1898,-0.26,0.07
+Florida,foraminifera,1883,-0.32,0.08
+Florida,foraminifera,1845,-0.37,0.07
+Florida,foraminifera,1817,-0.39,0.08
+Florida,foraminifera,1728,-0.46,0.07
+Florida,foraminifera,1706,-0.48,0.07
+Florida,foraminifera,1681,-0.48,0.06
+Florida,foraminifera,1670,-0.53,0.07
+Florida,foraminifera,1649,-0.5,0.07
+Florida,foraminifera,1628,-0.55,0.07
+Florida,foraminifera,1600,-0.56,0.07
+Florida,foraminifera,1589,-0.56,0.07
+Florida,foraminifera,1579,-0.54,0.07
+Florida,foraminifera,1575,-0.54,0.07
+Florida,foraminifera,1562,-0.55,0.06
+Florida,foraminifera,1554,-0.62,0.06
+Florida,foraminifera,1540,-0.6,0.06
+Florida,foraminifera,1518,-0.6,0.07
+Florida,foraminifera,1488,-0.66,0.06
+Florida,foraminifera,1473,-0.66,0.07
+Florida,foraminifera,1460,-0.64,0.07
+Florida,foraminifera,1421,-0.7,0.07
+Florida,foraminifera,1373,-0.71,0.07
+Florida,foraminifera,1359,-0.74,0.07
+Florida,foraminifera,1351,-0.74,0.07
+Florida,foraminifera,1307,-0.74,0.07
+Florida,foraminifera,1224,-0.77,0.07
+Florida,foraminifera,1187,-0.77,0.07
+Florida,foraminifera,1116,-0.8,0.07
+Florida,foraminifera,1071,-0.77,0.07
+Connecticut,foraminifera,2010,0.04,0.08
+Connecticut,foraminifera,2007,0.04,0.08
+Connecticut,foraminifera,2004,-0.04,0.08
+Connecticut,foraminifera,2002,0.01,0.08
+Connecticut,foraminifera,2000,-0.07,0.08
+Connecticut,foraminifera,1997,-0.01,0.08
+Connecticut,foraminifera,1994,-0.11,0.08
+Connecticut,foraminifera,1990,-0.06,0.08
+Connecticut,foraminifera,1986,-0.05,0.08
+Connecticut,foraminifera,1980,-0.11,0.08
+Connecticut,foraminifera,1976,-0.15,0.08
+Connecticut,foraminifera,1969,-0.16,0.08
+Connecticut,foraminifera,1964,-0.16,0.08
+Connecticut,foraminifera,1958,-0.2,0.08
+Connecticut,foraminifera,1954,-0.27,0.08
+Connecticut,foraminifera,1950,-0.19,0.08
+Connecticut,foraminifera,1945,-0.25,0.08
+Connecticut,foraminifera,1935,-0.29,0.08
+Connecticut,foraminifera,1925,-0.29,0.08
+Connecticut,foraminifera,1907,-0.33,0.08
+Connecticut,foraminifera,1888,-0.23,0.08
+Connecticut,foraminifera,1868,-0.33,0.08
+Connecticut,foraminifera,1848,-0.27,0.08
+Connecticut,foraminifera,1824,-0.33,0.08
+Connecticut,foraminifera,1801,-0.32,0.08
+Connecticut,foraminifera,1792,-0.37,0.08
+Connecticut,foraminifera,1787,-0.37,0.08
+Connecticut,foraminifera,1782,-0.45,0.08
+Connecticut,foraminifera,1775,-0.48,0.08
+Connecticut,foraminifera,1769,-0.49,0.08
+Connecticut,foraminifera,1762,-0.45,0.08
+Connecticut,foraminifera,1755,-0.57,0.08
+Connecticut,foraminifera,1748,-0.58,0.08
+Connecticut,foraminifera,1741,-0.57,0.08
+Connecticut,foraminifera,1732,-0.58,0.08
+Connecticut,foraminifera,1722,-0.6,0.08
+Connecticut,foraminifera,1711,-0.59,0.08
+Connecticut,foraminifera,1699,-0.63,0.08
+Connecticut,foraminifera,1688,-0.59,0.08
+Connecticut,foraminifera,1676,-0.64,0.08
+Connecticut,foraminifera,1662,-0.64,0.08
+Connecticut,foraminifera,1647,-0.67,0.08
+Connecticut,foraminifera,1632,-0.67,0.08
+Connecticut,foraminifera,1616,-0.69,0.08
+Connecticut,foraminifera,1599,-0.7,0.08
+Connecticut,foraminifera,1583,-0.71,0.08
+Connecticut,foraminifera,1566,-0.71,0.08
+Connecticut,foraminifera,1553,-0.72,0.08
+Florida,peat,1990,-0.15,0.23
+Florida,peat,1983,-0.17,0.23
+Florida,peat,1975,-0.19,0.23
+Florida,peat,1966,-0.21,0.23
+Florida,peat,1955,-0.23,0.23
+Florida,peat,1897,-0.25,0.23
+Florida,peat,1807,-0.27,0.23
+Florida,peat,1719,-0.29,0.23
+Florida,peat,1631,-0.3,0.23
+Florida,peat,1543,-0.32,0.23
+Florida,peat,1460,-0.34,0.23
+Florida,peat,1432,-0.36,0.23
+Florida,peat,1408,-0.38,0.23
+Florida,peat,1384,-0.4,0.23
+Florida,peat,1365,-0.42,0.23
+Florida,peat,1350,-0.44,0.23
+Florida,peat,1335,-0.46,0.23
+Florida,peat,1320,-0.48,0.23
+Florida,peat,1305,-0.5,0.23
+Florida,peat,1257,-0.52,0.23
+Florida,peat,1194,-0.54,0.23
+Florida,peat,1131,-0.56,0.23
+Florida,peat,1068,-0.58,0.23
+Florida,peat,1006,-0.6,0.23
