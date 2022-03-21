@@ -12,6 +12,8 @@ fontsize: 11pt
 
 **How to hand in:** Submit files via Quercus
 
+LAST UPDATED: 21 March (to clarify what $N_g$ is in Q1)
+
 # Fertility intentions
 
 This question relates to a 2016 survey of US women who were asked about their future fertility intentions. The survey data is in the file `intentions_survey`. Also relevant to this question is the `us_pops` data file, which contains the number of women in the US in 2016 by age group, education and marital status. 
@@ -26,7 +28,7 @@ c) Calculate the post-stratified estimates
 $$
 \hat{p}^{\text{ps}}_a = \frac{\sum_{g = 1}^G \hat{p}^{\text{raw}}_{g[a]} \times N_{g[a]}}{\sum_{g = 1}^G N_{g[a]}}
 $$
-where $g$ refers to a particular education/marital status group (e.g. people who are married and have less than a high school degree). There are a total of $G = 5\times3 = 15$ groups within each age group. Note that $\hat{p}^{\text{raw}}_{g[a]}$ refers to the observed proportion of women in group $g$ who are aged $a$ who want more children. 
+where $g$ refers to a particular education/marital status group (e.g. people who are married and have less than a high school degree). There are a total of $G = 5\times3 = 15$ groups within each age group. Note that $\hat{p}^{\text{raw}}_{g[a]}$ refers to the observed proportion of women in group $g$ who are aged $a$ who want more children, and $N_{g[a]}$ refers to the size of that particular population group who are aged $a$ in the US population. 
 
 d) Fit the following hierarchical model
 $$
